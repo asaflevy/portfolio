@@ -282,7 +282,7 @@ h2 span.heb{
 }
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh;
+    min-height: 90vh;
   }
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;

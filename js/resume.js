@@ -56,6 +56,7 @@
     $('.heb').hide()
     
     $('.lang-trig').click(function(e){
+        return ;
         e.preventDefault();
         if($(this).hasClass('en')){
             $('.en').fadeOut(200,function(){
