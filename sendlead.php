@@ -3,8 +3,8 @@ include ('includes/class.phpmailer.php');
 include ('includes/class.smtp.php');
 include ('includes/class.exception.php');
 
-$to = 'yuda8855@gmail.com';
-$to_2 = 'yuda8855@gmail.com';
+$to = 'asaflevy@me.com';
+$to_2 = 'simbal24@gmail.com';
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
@@ -29,7 +29,7 @@ try {
     //Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'ליד מתוך דף jude2go ';
-    $mail->Body    = '<h1>זו הודעה מתוך jude2go</h1><br/>
+    $mail->Body    = '<h1>זו הודעה מתוך asaflevy.com</h1><br/>
     <h2><strong>הודעה: </strong>' .$message . "<br/>"
         .'<strong>אימייל: </strong>'. $email ."<br/>"
         .'<strong>שם: </strong>'. $name . '</h2>';
